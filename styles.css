@@ -59,10 +59,10 @@ button:hover
     word-wrap: normal;
     text-align: left;
 }
-/*
+*
 {
     border:1px solid red;
-}*/
+}
 .boutme
 {
     display: flex;
@@ -98,3 +98,48 @@ img
     margin-left: 70px;
     margin-right: 100px;
 }
+
+.contents
+{
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.intro
+{
+    text-align: center;
+    font-weight: 800;
+    font-size:36px;
+}
+.ch
+{
+    padding: 8px;
+    text-align: center;
+}
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+    gap:20px;
+}
+.card
+{
+    display: flex;
+    flex-direction: column;
+
+}
+.cimg
+{
+    width: 275px;
+    height: auto;
+    align-self: center;
+}
+.cinfo
+{
+    width: 300px;
+    text-align: center;
+    flex-grow: 1;
+}
+
