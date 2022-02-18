@@ -131,22 +131,30 @@ img
     padding: 16px;
     column-gap:15%;
     row-gap: 30px;
-    background:url(images/cardbg.jpg);
+    background:url(images/rock.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     justify-content: center;
 }
 .card
 {
-    border-radius: 2%;
-    border: 2px solid black;
+    border-radius: 5%;
+    border: 2px solid rgba(0, 0, 0, 0.685);
     display: flex;
     flex-direction: column;
     background-color: #e5e7eba2;
+    margin:2px;
+}
+a
+{
+    text-decoration: none;
+    color:white;
+    align-self: center;
+
 }
 .cimg
 {
-    margin-top: 10px;
+    margin:10px;
     border:5px solid black;
     border-radius: 15%;
     width: 275px;
@@ -164,7 +172,7 @@ img
 {
     padding: 8px;
     text-align: center;
-    background-color: #000000;
+    background-color: #000000e8;
     color: white;
     font-size: large;
 }
@@ -175,10 +183,11 @@ img
     padding-top:250px;
     padding-bottom: 250px;
     padding-left: 18px;
-    background: url(images/quote.jpg);
+    padding-right: 18px;
+    background: url(images/rock2.gif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    color:white;
+    color:rgb(255, 255, 255);
     text-align:left;
     font-size: 48px;
 }
